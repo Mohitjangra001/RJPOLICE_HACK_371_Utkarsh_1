@@ -1,75 +1,61 @@
-# Getting Started with Create React App
+# Police Feedback System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Problem Statement
 
-## Available Scripts
+Getting feedback on police operations is a challenging task due to outdated methods and privacy concerns. Traditional approaches, such as inspections and calls to complainants, are limited and lack inclusivity. This hampers the understanding of community sentiments and impedes effective addressing of policing issues.
 
-In the project directory, you can run:
+## Solution Overview
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Flowchart](https://res.cloudinary.com/dyovqqcak/image/upload/v1703740818/WhatsApp_Image_2023-12-28_at_10.28.45_dcoutt.jpg)
 
 
-### `npm run dev`
+### 1. Bulk SMS Tool
 
-run front and back
+Utilize a service like Twilio for sending bulk SMS. Integrate Twilio API into our React app to facilitate the easy dissemination of information and collection of feedback via SMS.
 
-## Learn More
+### 2. Auto Chatbot
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Integrate a chatbot framework like Microsoft Bot Framework or Dialogflow into our React app. This chatbot will enable users to provide feedback in a conversational manner, enhancing user engagement and inclusivity.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 3. Online Portal
 
-### Code Splitting
+Design a detailed feedback form using state management (React Context or Redux) for efficient data management. Implement API calls to securely store feedback data on the server, ensuring privacy and data integrity.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 4. Social Media-Like Platform
 
-### Analyzing the Bundle Size
+Implement a social media-like framework for real-time updates. Users can share their experiences in an interesting manner, tag locations, and provide feedback in a more interactive and engaging way.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Technologies Used
 
-### Making a Progressive Web App
+1. **Programming Languages:**
+   - JavaScript (React for front-end, Node.js for back-end)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. **Frameworks:**
+   - React, Express
 
-### Advanced Configuration
+3. **Tools:**
+   - Twilio API, Microsoft Bot Framework, Dialogflow, Redux/React Context for state management
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+4. **Cloud Services:**
+   - TBD (AWS, Azure, or Google Cloud for server hosting and data storage)
 
-### Deployment
+5. **Mobile App Development:**
+   - React Native for cross-platform mobile app development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+6. **Web Portal Development:**
+   - React for front-end, Node.js for back-end
 
-### `npm run build` fails to minify
+## Team Members and Responsibilities
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Mohit:**
+  - Responsible for designing the User Interface (UI).
+
+- **Lakshyadeep Gogoi:**
+  - Implementing the UI design to develop the application.
+
+- **Md Danish:**
+  - Implementing the web portal and integrating all components.
+
+- **Mudit:**
+  - Designing the web portal and handling the deployment process.
+
