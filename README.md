@@ -51,11 +51,11 @@ Implement a social media-like framework for real-time updates. Users can share t
   - Responsible for designing the User Interface (UI).
 
 - **Lakshyadeep Gogoi:**
-  - Implementing the UI design to develop the application.
+  - Development of the Application [MERN Stack].
 
 - **Md Danish:**
   - Implementing the web portal and integrating all components.
 
 - **Mudit:**
-  - Designing the web portal and handling the deployment process.
+  - Handling the deployment process.
 
